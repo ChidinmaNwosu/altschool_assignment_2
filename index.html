@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Registration Page</title>
+  <link rel="stylesheet" href="/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="body-main-container">
+    <div class="left-container">
+      <img src="/image/Logo.png" alt="A logo">
+
+      <h1>For Individuals</h1>
+
+      <p class="desktop-text">Start something from the wellness experience. For <br>companies looking on increasing
+        productivity, and improving organisational wellness.
+      </p>
+
+      <p class="mobile-text">
+        Inspiring wholesome harmony for the mind, body and spirit, for everyone, everwhere.
+      </p>
+    </div><!-- Left container div-->
+
+    <div class="right-container">
+      <form action="#">
+        <div class="form-box">
+          <div class="left-form-box">
+            <label for="firstName">First Name</label><br>
+            <input type="text" name="firstName" id="firstName" placeholder="Tolu" required>
+          </div><!--left-form-box:first name-->
+
+          <div class="right-form-box">
+            <label for="lastName">Last Name</label><br>
+            <input type="text" name="LastName" id="lastName">
+          </div><!--right-form-box:last name-->
+        </div><!--form box 1 div-->
+
+        <div class="form-box">
+          <div class="left-form-box">
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div><!-- left form box(gender)-->
+
+          <div class="right-form-box">
+            <label for="dateofbirth">Date of Birth</label><br>
+            <input type="date" id="dateofbirth">
+          </div><!-- right form box(date of birth)-->
+        </div><!-- form box 2 div-->
+
+        <div class="form-box">
+          <div class="left-form-box">
+            <label for="weight">Weight(KG)</label><br>
+            <input type="text" id="weight" placeholder="Enter weight">
+          </div><!--left form box(weight)-->
+
+          <div class="right-form-box">
+            <label for="height">Height(CM)</label><br>
+            <input type="text" id="height" placeholder="Enter height here">
+          </div><!-- right form box(height)-->
+        </div><!-- form box 3 div-->
+
+        <div class="activitylevel">
+          <label for="activitylevel">Activity Level</label>
+          <select name="activitylevel" id="activitylevel">
+            <option value="easy">Easy</option>
+            <option value="average">Average</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div><!-- activity level div-->
+
+        <div class="password">
+          <label for="password">Password</label><br>
+          <input type="password" name="password" id="password">
+        </div><!-- password div-->
+
+        <button>Register</button>
+
+        <p class="register">By clicking Register, you agree to our<a href="#">Terms of Use</a>and our<a href="#">Privacy
+            Policy.</a></p>
+
+      </form>
+
+    </div><!-- Right container div-->
+
+  </div><!-- body-main-container div-->
+
+</body>
+
+</html>
